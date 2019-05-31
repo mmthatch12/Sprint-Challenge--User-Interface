@@ -96,6 +96,10 @@ p {
     font-size: .9rem;
 }
 
+header img {
+    margin-bottom: 20px;
+}
+
 
 .top-content {
     display: flex;
