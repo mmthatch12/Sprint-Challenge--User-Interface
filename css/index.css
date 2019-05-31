@@ -71,6 +71,32 @@ p {
     margin: 0 auto;
 }
 
+.inav1 {
+    width: 800px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.iimg1 {
+    width: 157px;
+}
+
+.ia1 {
+    width: 643px;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+.ia1 a {
+    text-decoration: none;
+    color: black;
+    font-size: .9rem;
+}
+
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
