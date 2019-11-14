@@ -71,6 +71,36 @@ p {
     margin: 0 auto;
 }
 
+.inav1 {
+    width: 800px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.iimg1 {
+    width: 157px;
+}
+
+.ia1 {
+    width: 643px;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+.ia1 a {
+    text-decoration: none;
+    color: black;
+    font-size: .9rem;
+}
+
+header img {
+    margin-bottom: 20px;
+}
+
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -83,6 +113,73 @@ p {
     width: 48%;
     padding: 0 1%;
     padding-bottom: 20px;  
+}
+
+.top-content2 {
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+
+.middletop {
+    display: flex; 
+    justify-content: space-between; 
+    margin: 20px;
+}
+
+.middletop img {
+    margin-bottom: 20px;
+    width: 380px;
+}
+
+.middletop .dmt1 {
+    display: flex;
+    flex-direction: column;
+    padding-right: 10px;
+}
+
+.middletop .dmt2 {
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+}
+
+.middlebottom {
+    display: flex;
+    justify-content: space-between; 
+    margin: 20px;
+}
+
+.middlebottom img {
+    margin-bottom: 20px;
+}
+
+.middlebottom .dmb1 {
+    width: 380px;
+    display: flex;
+    flex-direction: column;
+    padding-right: 10px;
+}
+
+.middlebottom .dmb2 {
+    display: flex;
+    flex-direction: column; 
+    padding-left: 10px;
+}
+
+button {
+    background: none;
+    border-radius: 10px;
+    width: 130px;
+    height: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 2px solid black;
+}
+
+.dline {
+    border: 1px dashed black;
 }
 
 .middle-content {
@@ -112,6 +209,46 @@ p {
     justify-content: center;
 }
 
+.middle-content .boxes .box.box1 {
+    background: teal;
+}
+
+.middle-content .boxes .box.box2 {
+    background: gold;
+}
+
+.middle-content .boxes .box.box3 {
+    background: cadetblue;
+}
+
+.middle-content .boxes .box.box4 {
+    background: coral;
+}
+
+.middle-content .boxes .box.box5 {
+    background: crimson;
+}
+
+.middle-content .boxes .box.box6 {
+    background: forestgreen;
+}
+
+.middle-content .boxes .box.box7 {
+    background: darkorchid;
+}
+
+.middle-content .boxes .box.box8 {
+    background: hotpink;
+}
+
+.middle-content .boxes .box.box9 {
+    background: indigo;
+}
+
+.middle-content .boxes .box.box10 {
+    background: dodgerblue;
+}
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -124,6 +261,12 @@ p {
 
 .bottom-content .text-container:last-child {
     padding-right: 0;
+}
+
+.bottom2 {
+    padding-left: 20px;
+    margin-top: 40px;
+    margin-bottom: 20px;
 }
 
 footer {
